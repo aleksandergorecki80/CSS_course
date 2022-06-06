@@ -1,0 +1,34 @@
+* {
+    
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+html {
+    font-size: 62.5%;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+}
+
+.grid-container {
+    width: 100%;
+    max-width: 100rem;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+}
+
+.eight {
+    grid-column: 2 / 3;
+    grid-row: 1  / span 3;
+}
+
+.eleven {
+    grid-column: 1 / span 4;
+}
