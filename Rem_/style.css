@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+        /* domyslnie 1 rem = 16px */
+
+        /* Tu zmieniamy ze 1 rem = 10 px   */
+        
+    font-size: 10px;
+}
+
+body {
+    line-height: 1;
+    font-weight: 400;
+
+}
+
+.test {
+    background-color: blue;
+    padding: 2.4rem 0;
+    max-width: 10rem;
+    font-size: 2rem;
+
+}
